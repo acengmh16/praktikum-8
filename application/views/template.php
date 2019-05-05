@@ -37,6 +37,19 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+  <style>
+    .box{
+      border-radius: 5px;
+      box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    }
+    .btn{
+      border-radius: 20px !important;
+    }
+    .btn-success{
+      background: #d63031 !important;
+      border:none;
+    }
+  </style>
   <!-- jQuery 3 -->
   <script src="<?php echo base_url(); ?>assets/AdminLTE/bower_components/jquery/dist/jquery.min.js"></script>
 </head>
@@ -145,7 +158,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0.0
     </div>
-    <strong>Copyright &copy; 2019-2024 <a href="https://adminlte.io">Gede Widiastawan</a>.</strong> All rights
+    <strong>Copyright &copy; 2019-2024 <a href="https://adminlte.io">Muhammad Husein</a>.</strong> All rights
     reserved.
   </footer>
   <!-- Control Sidebar -->
